@@ -1,17 +1,15 @@
-* {
+html, body, #root {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-html, body, #root {
   width: 100%;
-  min-height: 100vh;
   overflow-x: hidden;
   background: black;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: black;
-  color: white;
+  font-family: Arial, sans-serif;
 }
