@@ -151,14 +151,12 @@ export default function App() {
   };
 
   return (
-    <div
-      style={{
-        background: "linear-gradient(to bottom,#000,#050505,#0a0a0a)",
-        color: "white",
-        minHeight: "100vh",
-        fontFamily: "Arial",
-      }}
-    >
+  <div style={{
+  width: "100%",
+  minHeight: "100vh",
+  background: "#000",
+  overflowX: "hidden"
+}}>
 
       {/* NAVBAR */}
 
